@@ -8,9 +8,13 @@
     text-decoration: none;
     font-family: s.$font1;
     font-weight: 700;
+
+    &:hover {
+      color: s.$bg1;
+    }
   }
   .nav-active {
-    color: s.$bg1;
+    color: s.$bg2;
     font-weight: 900;
     position: relative;
   }

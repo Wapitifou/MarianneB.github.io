@@ -4,13 +4,11 @@ import Work from "../components/Work";
 
 const Resume = () => {
   return (
-    <div>
+    <div className="page-header">
       <Navigation />
-      <div className="parkour">
-        <h1>My resume as never seen before</h1>
-        <div className="work-experience">
-          <Work />
-        </div>
+      <h1>My resume as never seen before</h1>
+      <div className="work-experience">
+        <Work />
       </div>
     </div>
   );

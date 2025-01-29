@@ -4,10 +4,10 @@ import WebProjects from "../components/WebProjects";
 
 const Projects = () => {
   return (
-    <div className="web-projects">
+    <div className="page-header">
       <Navigation />
-      <h1>wow much projects</h1>
-      <p>Some projects I have been working on. Feel free to explore!</p>
+      <h1>Digital projects</h1>
+      <h4>Some projects I have been working on. Feel free to explore!</h4>
       <WebProjects />
     </div>
   );

@@ -28,3 +28,20 @@ body {
   width: 100%;
   overflow: hidden;
 }
+
+.page-header {
+  background: $white;
+  width: 100%;
+  min-height: 100vh;
+  font-family: $font1;
+
+  h1 {
+    font-weight: bold;
+    color: $bg1;
+    font-size: 3rem;
+    padding: 10px 40px;
+  }
+  h4 {
+    padding: 0 80px;
+  }
+}

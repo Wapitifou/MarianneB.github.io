@@ -5,14 +5,14 @@ import Chart from "../components/Chart";
 
 const About = () => {
   return (
-    <div>
+    <div className="page-header">
       <Navigation />
+      <h1>Get to know me</h1>
+      <h2>Hi there!</h2>
       <div className="introduction">
-        <h1>Get to know me</h1>
-        <h2>Hi there!</h2>
         <p>
           Don't worry I'll be short. <br />I am a French self-taught independant
-          worker fond of learning new skills. I have work in different
+          worker fond of learning new skills. I have worked in different
           environments and learned a lot in each and everyone of them as a
           marketing specialist more on this in the{" "}
           <NavLink to="/resume">Resume section</NavLink>. <br />
@@ -22,8 +22,8 @@ const About = () => {
           in a digital and traditional manner : pencil, gouache, watercolor,
           sculpture, digital drawings on both Procreate and Photoshop for all
           matters related to drawing and painting. I also love traveling and
-          taking pictures of places and wildlife I encounter (moutain places are
-          my favourite!).
+          taking pictures of places and wildlife I encounter (moutains are my
+          favourite!).
         </p>
         <p>If I had to summarize it all, I am:</p>
         <Chart />
