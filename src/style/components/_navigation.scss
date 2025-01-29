@@ -1,0 +1,17 @@
+@use "../settings" as s;
+
+.navigation {
+  text-align: end;
+  padding: 20px;
+
+  a {
+    text-decoration: none;
+    font-family: s.$font1;
+    font-weight: 700;
+  }
+  .nav-active {
+    color: s.$bg2;
+    font-weight: 900;
+    position: relative;
+  }
+}

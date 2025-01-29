@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "title";
+  src: url(../assets/Yrsa-Regular.ttf);
+}
+@font-face {
+  font-family: "font1";
+  src: url(../assets/EncodeSansSemiCondensed-Light.ttf);
+}
+
+$font1: "font1";
+$title: "title";
+$white: rgb(235, 235, 235);
+$black: rgb(34, 34, 34);
+$bg1: rgb(110, 202, 194);
+$bg2: rgb(254, 170, 177);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: $black;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}

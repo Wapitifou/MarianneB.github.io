@@ -1,0 +1,7 @@
+@use "../settings" as s;
+
+.recharts-wrapper {
+  font-family: s.$font1;
+  display: flex;
+  margin: auto;
+}

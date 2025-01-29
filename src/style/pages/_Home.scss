@@ -1,0 +1,98 @@
+@use "../settings" as s;
+
+.home-page {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: s.$bg1;
+  &::after {
+    content: "";
+    position: absolute;
+    background: rgba(253, 227, 227, 0.123);
+    width: 50%;
+    height: 100vh;
+    backdrop-filter: hue-rotate(180deg);
+    z-index: 10;
+    top: 0;
+    left: 50%;
+    transform: translateX(0%);
+    pointer-events: none;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 15px 50px;
+    background: rgba(255, 255, 255, 0.603);
+    margin: 0 50px;
+    border-radius: 50px;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      height: 3px;
+      width: 800px;
+      background: white;
+      top: 35px;
+    }
+
+    .eyes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      img {
+        width: 300px;
+        position: relative;
+      }
+    }
+
+    h1 {
+      font-family: s.$title;
+      font-size: 7rem;
+      letter-spacing: 6px;
+    }
+
+    h2 {
+      font-family: s.$font1;
+    }
+
+    .buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      z-index: 100;
+
+      button {
+        margin: 100px auto 0;
+        padding: 10px 30px;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+      }
+      #btn-work {
+        background: s.$bg2;
+        color: s.$black;
+        border: 1px solid s.$bg2;
+        cursor: pointer;
+        &:hover {
+          background: s.$bg1;
+          color: s.$white;
+        }
+      }
+      #btn-art {
+        background: s.$bg1;
+        color: s.$white;
+        border: 1px solid s.$bg1;
+        cursor: pointer;
+        &:hover {
+          background: s.$bg2;
+          color: s.$black;
+          border: 1px solid s.$bg1;
+        }
+      }
+    }
+  }
+}
