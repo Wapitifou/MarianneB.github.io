@@ -7,15 +7,19 @@ const About = () => {
   return (
     <div className="page-header">
       <Navigation />
-      <h1>Get to know me</h1>
-      <h2>Hi there!</h2>
       <div className="introduction">
+        <h1>Get to know me</h1>
+        <h2>Hi there!</h2>
         <p>
-          Don't worry I'll be short. <br />I am a French self-taught independant
-          worker fond of learning new skills. I have worked in different
-          environments and learned a lot in each and everyone of them as a
-          marketing specialist more on this in the{" "}
-          <NavLink to="/resume">Resume section</NavLink>. <br />
+          Don't worry I'll be short. <br /> <br />I am a French self-taught
+          independant worker fond of learning new skills. I have worked in
+          different environments and learned a lot in each and everyone of them
+          as a marketing specialist more on this in the{" "}
+          <NavLink to="/resume">
+            <strong>Resume section</strong>
+          </NavLink>
+          . <br />
+          <br />
           Aside work, I spend most time learning new things, and coding was part
           of it! I started on basics like HTML & CSS. Then I added Javascript
           and React (now moving on to Python 🫡). I also tried multiple artforms
@@ -25,7 +29,10 @@ const About = () => {
           taking pictures of places and wildlife I encounter (moutains are my
           favourite!).
         </p>
-        <p>If I had to summarize it all, I am:</p>
+        <p>
+          <br />
+          If I had to summarize it all, I am:
+        </p>
         <Chart />
       </div>
       <div className="social-media">
