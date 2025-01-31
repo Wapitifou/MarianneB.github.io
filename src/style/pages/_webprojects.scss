@@ -12,28 +12,29 @@
     border-radius: 10px;
     margin: 20px 80px;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-areas:
-      "h2 h2"
-      "pic h3"
-      "pic p";
+    text-align: justify;
 
     h2 {
-      grid-area: h2;
+      width: 100%;
+      margin: 0 auto 20px;
     }
 
     h3 {
-      grid-area: h3;
-      margin: 0 0 10px;
+      margin: 50px 0 10px;
     }
+
     img {
       width: 250px;
-      grid-area: pic;
       border-radius: 20px;
-    }
-    p {
-      grid-area: p;
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: scale(0.95);
+      }
     }
   }
 }
