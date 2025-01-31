@@ -32,7 +32,7 @@ const WebProjects = () => {
           </p>
         </div>
         <div className="quizz">
-          <h2>Useless knowledge quizz</h2>
+          <h2>Unnecessary info quizz</h2>
           <h3>
             A quizz dedicated to learning useless informations about the world
           </h3>
