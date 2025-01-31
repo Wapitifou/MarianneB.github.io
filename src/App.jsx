@@ -11,12 +11,12 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="MarianneB.github.io/" element={<Home />} />
-          <Route path="MarianneB.github.io/*" element={<Home />} />
-          <Route path="MarianneB.github.io/about" element={<About />} />
-          <Route path="MarianneB.github.io/resume" element={<Resume />} />
-          <Route path="MarianneB.github.io/projects" element={<Projects />} />
-          <Route path="MarianneB.github.io/artwork" element={<Artwork />} />
+          <Route path="/MarianneB.github.io/" element={<Home />} />
+          <Route path="/MarianneB.github.io/*" element={<Home />} />
+          <Route path="/MarianneB.github.io/about" element={<About />} />
+          <Route path="/MarianneB.github.io/resume" element={<Resume />} />
+          <Route path="/MarianneB.github.io/projects" element={<Projects />} />
+          <Route path="/MarianneB.github.io/artwork" element={<Artwork />} />
         </Routes>
       </BrowserRouter>
     </div>
