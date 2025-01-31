@@ -24,16 +24,14 @@ $bg2: rgb(254, 170, 177);
 }
 
 body {
-  height: 100vh;
   width: 100%;
-  overflow: hidden;
+  min-height: 100vh;
 }
 
 .page-header {
   background: $white;
-  width: 100%;
-  min-height: 100vh;
   font-family: $font1;
+  min-height: 100vh;
 
   h1 {
     font-weight: bold;

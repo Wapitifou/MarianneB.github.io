@@ -1,6 +1,10 @@
 @use "../settings" as s;
 
+.page-header {
+  min-height: 100vh;
+}
 .showcase {
+  min-height: 100vh;
   .recom-culture,
   .nature-western,
   .quizz {
@@ -26,6 +30,7 @@
     img {
       width: 250px;
       grid-area: pic;
+      border-radius: 20px;
     }
     p {
       grid-area: p;
