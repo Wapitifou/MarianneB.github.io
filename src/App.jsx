@@ -4,21 +4,21 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import "./style/index.scss";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path="/MarianneB.github.io/" element={<Home />} />
-          <Route path="/MarianneB.github.io/*" element={<Home />} />
-          <Route path="/MarianneB.github.io/about" element={<About />} />
-          <Route path="/MarianneB.github.io/resume" element={<Resume />} />
-          <Route path="/MarianneB.github.io/projects" element={<Projects />} />
-          <Route path="/MarianneB.github.io/artwork" element={<Artwork />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/*" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/artwork" element={<Artwork />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
