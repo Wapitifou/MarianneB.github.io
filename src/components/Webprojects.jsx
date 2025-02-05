@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../pages/Resume";
 
 const WebProjects = () => {
   return (
@@ -26,7 +27,10 @@ const WebProjects = () => {
         <div className="intro">
           <h2>Ecuries Nature Western</h2>
           <a href="">
-            <img src="" alt="pic-to-come" />
+            <img
+              src="ecuries-nature-western.png"
+              alt="Lien vers le projet écuries nature western"
+            />
           </a>
         </div>
         <div className="info">
